@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SudokuSolver", "SudokuSolver\SudokuSolver.csproj", "{A7447631-48DD-4503-8E13-EC180C234621}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestClusterCreator", "TestClusterCreator\TestClusterCreator.csproj", "{8E1A31B5-3993-43A3-BEB5-405CFBCA18A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsoleWriter", "TestConsoleWriter\TestConsoleWriter.csproj", "{285E5181-5781-44AC-AC6F-C16A5EE919E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSudokuCheck", "TestSudokuCheck\TestSudokuCheck.csproj", "{C12FE3D4-CFAD-4B4D-8F7E-906A387F54C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSudokuUI", "TestSudokuUI\TestSudokuUI.csproj", "{C9E0959A-E31D-4FF4-B989-24D1531968B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPositionMover", "TestPositionMover\TestPositionMover.csproj", "{DE49C516-832E-43B3-8754-A6903CD4F299}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7447631-48DD-4503-8E13-EC180C234621}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7447631-48DD-4503-8E13-EC180C234621}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7447631-48DD-4503-8E13-EC180C234621}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7447631-48DD-4503-8E13-EC180C234621}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E1A31B5-3993-43A3-BEB5-405CFBCA18A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E1A31B5-3993-43A3-BEB5-405CFBCA18A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E1A31B5-3993-43A3-BEB5-405CFBCA18A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E1A31B5-3993-43A3-BEB5-405CFBCA18A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{285E5181-5781-44AC-AC6F-C16A5EE919E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{285E5181-5781-44AC-AC6F-C16A5EE919E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{285E5181-5781-44AC-AC6F-C16A5EE919E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{285E5181-5781-44AC-AC6F-C16A5EE919E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C12FE3D4-CFAD-4B4D-8F7E-906A387F54C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C12FE3D4-CFAD-4B4D-8F7E-906A387F54C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C12FE3D4-CFAD-4B4D-8F7E-906A387F54C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C12FE3D4-CFAD-4B4D-8F7E-906A387F54C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9E0959A-E31D-4FF4-B989-24D1531968B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9E0959A-E31D-4FF4-B989-24D1531968B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9E0959A-E31D-4FF4-B989-24D1531968B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9E0959A-E31D-4FF4-B989-24D1531968B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE49C516-832E-43B3-8754-A6903CD4F299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE49C516-832E-43B3-8754-A6903CD4F299}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE49C516-832E-43B3-8754-A6903CD4F299}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE49C516-832E-43B3-8754-A6903CD4F299}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76657E59-14C9-49C9-8014-D242B2654B41}
+	EndGlobalSection
+EndGlobal
