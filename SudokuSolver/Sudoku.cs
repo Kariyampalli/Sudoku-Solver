@@ -109,7 +109,7 @@ namespace SudokuSolver
                         if (validInput)
                         {
                             Console.Clear();
-                            consoleWriter.WriteLine("Please put in the Sudoku speed", ConsoleColor.White);
+                            consoleWriter.WriteLine("Please chose the solving speed between 0 (fastest) and 5 (slowest)", ConsoleColor.White);
                             string speedInput = Console.ReadLine();
                             check.CheckSpeedInput(speedInput, out gameSpeed, out validInput);
                         }
@@ -119,13 +119,13 @@ namespace SudokuSolver
                             consoleWriter.Write("-----Example----\n\n\n(9x9) Sudoku input:\n\n5, 3, 0, 0, 7, 0, 0, 0, 0, 6," +
                                  " 0, 0, 1, 9, 5, 0, 0, 0, 0, 9, 8, 0, 0, 0, 0, 6, 0, 8, 0, 0, 0, 6, 0, 0, 0, 3," +
                                  " 4, 0, 0, 8, 0, 3, 0, 0, 1, 7, 0, 0, 0, 2, 0, 0, 0, 6 , 0, 6, 0, 0, 0, 0, 2, 8," +
-                                 " 0, 0, 0, 0, 4, 1, 9, 0, 0, 5, 0, 0, 0, 0, 8, 0, 0, 7, 9\n\n(0-5 in sec) Speed input: 4\n\n\n(Press Enter to skip)", ConsoleColor.White);
+                                 " 0, 0, 0, 0, 4, 1, 9, 0, 0, 5, 0, 0, 0, 0, 8, 0, 0, 7, 9\n\n\n(Press Enter to skip)", ConsoleColor.White);
                             Console.ReadLine();
                             Console.Clear();
                             continue;
                         }
                         this.clusters = clustersCreator.CreateClusters(this.spaces, out validInput);
-                        this.gameSpeed = this.gameSpeed * 1000;
+                        this.gameSpeed = this.gameSpeed * 50;
                     }
 
                     this.StartGame();
@@ -133,7 +133,7 @@ namespace SudokuSolver
                     bool askAgain = true;
                     while (askAgain)
                     {
-                        consoleWriter.WriteLine("Do you want to play again? (n/y)", ConsoleColor.White);
+                        consoleWriter.WriteLine("Do you want me to solve another one? (n/y)", ConsoleColor.White);
                         string answer = Console.ReadLine();
 
                         again = check.CheckRestartInput(answer, out askAgain);
